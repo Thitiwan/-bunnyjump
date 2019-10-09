@@ -5,9 +5,11 @@
 [node name="platform grass" type="StaticBody2D"]
 
 [node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 47.2372, 0 )
+scale = Vector2( 1.24862, 1 )
 texture = ExtResource( 1 )
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
-position = Vector2( 0, 6.26324 )
-scale = Vector2( 1, 0.916922 )
-polygon = PoolVector2Array( -178.851, -47.8865, 177.12, -47.3527, 185.208, -43.4703, 190.385, -34.0878, 190.708, -14.9993, 160.943, 36.119, -161.843, 46.9414, -190.457, -13.0664, -189.463, -38.3759 )
+position = Vector2( 46.8544, 3.93057 )
+scale = Vector2( 1.24721, 0.916922 )
+polygon = PoolVector2Array( -178.851, -47.8865, 177.12, -47.3527, 185.208, -43.4703, 190.385, -34.0878, 189.375, -16.4073, 160.943, 36.119, -161.843, 46.9414, -191.014, -19.0223, -189.463, -38.3759 )
